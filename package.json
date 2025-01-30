@@ -1,0 +1,29 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/meggwich/babel#readme",
+  "bugs": {
+    "url": "https://github.com/meggwich/babel/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meggwich/babel.git"
+  },
+  "license": "ISC",
+  "author": "Mikita Alkhimionak",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.7",
+    "@babel/preset-env": "^7.26.7"
+  },
+  "dependencies": {
+    "core-js": "^3.40.0"
+  }
+}
